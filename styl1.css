@@ -1,0 +1,22 @@
+.parent{
+    background-color: blue;
+    padding:10px;
+    display:flex;
+}
+.parent div{
+    padding:10px;
+    margin:10px;
+}
+.item1{
+    background-color: black;
+}
+
+.item2{
+    background-color: rgb(8, 133, 68);
+}
+.item3{
+    background-color: rgb(179, 7, 7);
+}
+.item4{
+    background-color: rgb(160, 195, 8);
+}
