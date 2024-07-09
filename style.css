@@ -1,7 +1,8 @@
 
 .container{
-    background-image:
-    linear-gradient(to right ,rgba(15, 41, 2, 0.789),#17d80523);
+    /* background-image:
+    linear-gradient(to right ,rgb(16, 41, 4),#0a520323); */
+    background-color: #023a04;
     /* width:90%;
     height:150px; */
     display:flex;
@@ -17,21 +18,21 @@ img{
     /* width:90%;
     */
     height:500px; 
-    background-image:url(plantes.jpg);
+    background-image:url(img1/pln.jpg);
 }
-ul{
+.container ul{
     width:20%;
     list-style:none;
     display:flex;
     justify-content:space-between;
 }
-a{
+.container ul li a {
     text-decoration:none ;
     color:white;
     font-size:20px;
     border-bottom:2px solid transparent;
 }
-a:hover{
+.container ul li a:hover{
     border-bottom-color:white;
 }
 .xx{
@@ -42,7 +43,7 @@ a:hover{
 }
 .one{
     /* background-color: rgba(3, 90, 31, 0.881); */
-    height:400px;
+    height:300px;
     display:flex;
     justify-content:space-between;  
     align-items:center;
@@ -60,86 +61,63 @@ a:hover{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing:3px; /*la distnace entre les caracteres*/
     word-spacing:8px;
-    margin-left:99px;
+    margin-left:300px;
     padding:30px;
-    border-radius:10px 5px 5px 5px;
+    
     /* position:relative; */
     display:flex;
     margin-bottom:600px;
     margin-top:600px;
 }
 .img1{
-    /* background-image:
-    linear-gradient(to right ,rgb(166, 249, 13),#3ffc2d6a);
-    height:250px;
-    width:200px;
-    margin-left:900px;
-    display:flex;
-    justify-content:space-between;
-    margin-bottom:600px;
-    position:absolute;
-    border-radius:20px;
-    margin-top:600px; */
+   
     background-image:
     linear-gradient(to right ,rgb(10, 119, 37),#3ffc2d6a);
-    height:200px;
+    height:260px;
     width:200px;
-    /* margin-left:900px; */
     display:flex;
     justify-content:space-between;
-    /* margin-bottom:600px; */
     
-    border-radius:20px;
-    /* padding-top:30px;
-    padding-right:20px; */
-    /* margin-top:600px; */
     background-size: cover;
-    
-
+    margin-right:80px;
 }
 .two{
-    background-color: rgb(5, 60, 8);
-    display:flex;
-    height:19%;
+    background-color: rgb(60, 26, 5);
+    display:flex; 
     justify-content:space-between;  
     align-items:center;
-    height:400px;
+    height:595px;
     padding-right: 21%;
 }
 .p2{
     color:white;
-    background-image:
-    linear-gradient(to right ,rgb(166, 249, 13),#3ffc2d6a);
+    /* background-image:
+    linear-gradient(to right ,rgb(166, 249, 13),#3ffc2d6a); */
     width:400px;
     height:200px;
     font-size:20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing:3px; /*la distnace entre les caracteres*/
     word-spacing:8px;
-    /* margin-right:700px; */
     padding:30px;
-    border-radius:10px 5px 5px 5px;
-     position:relative;
+    background-color: rgb(4, 69, 14);
+    position:relative;
     display:flex;
     margin-bottom:600px;
-    margin-left:99px;
-    margin-top:600px;
+    margin-left:300px;
+    margin-top:340px;
  }
 .img2{
-    background-image:
-    linear-gradient(to right ,rgb(10, 119, 37),#3ffc2d6a);
-    height:200px;
+    /* background-image:
+    linear-gradient(to right ,rgb(10, 119, 37),#3ffc2d6a); */
+    background-color: rgb(42, 104, 31);
+    height:260px;
     width:200px;
-    /* margin-left:900px; */
     display:flex;
     justify-content:space-between;
-    /* margin-bottom:600px; */
-    
-    border-radius:20px;
-    /* padding-top:30px;
-    padding-right:20px; */
-    /* margin-top:600px; */
+    margin-top:260px;
     background-size: cover;
+    margin-right:80px;
     
 
 }  
@@ -147,6 +125,8 @@ a:hover{
     background-color: rgb(5, 60, 8);
     height:100px;
     display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .h1{
     background-image:
@@ -161,37 +141,56 @@ a:hover{
     padding-top:10px;
     color:white;
     display:flex;
+    margin-bottom:15px;
 }
 .four{
-    background-color: rgb(5, 60, 8);
+    background-color: rgb(2, 44, 4);
     height:250px;
     display:flex;
+    color:white;
+    align-items: center;
 }
 .df1{
     background-image:
     linear-gradient(to right ,rgb(166, 249, 13),#3ffc2d6a);
     height:200px;
     width:750px;
-    margin-left:250px;
+    margin-left:262px;
     letter-spacing:3px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-left:16px;
-    padding-top:20px;
+    padding-top:30px;
     border-radius:10px 20px 10px 20px ;
 }
 .five{
     background-color: rgb(113, 172, 3);
     padding:10px;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-aroucound;
+    height:700px;
    
 }
-.img_five{
-    border-radius:100%;
-    height:200px;
-    width: 200px;
+.foto1 h1{
+    margin-left:25px;
+        display: flex;
+        flex-direction: column;
 }
 
+.gn{
+    background-color: rgb(25, 206, 22);
+    width:190px;
+    height:100px;
+    margin-bottom:200px;
+    padding:4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin-top:300px; */
+    margin-right:100px;
+}
+.img_five{
+    /* border-radius:100%; */
+    height:300px;
+    width: 200px;
+}
 .six{
     background-color: rgb(113, 172, 3);
     padding:10px;
@@ -204,9 +203,92 @@ a:hover{
     height:200px;
     width: 200px;
 }
+.seven{
+    background-color: rgb(201, 230, 174);
+    height:450px;
+    display:flex;
+    justify-content: space-around;
+}
+.img_seven{
+    width:400px;
+    height:300px;
+    margin-top:40px;
+    border-radius:9px;
+}
+video{
+    margin-top:30px;
+}
 
 
 
+/* Advanced footer styles
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    /* padding: 20px 0; 
+  
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+@media (max-width: 600px) {
+    footer {
+        padding: 10px 0;
+    }
+
+    footer img {
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+    }
+}
+*/
+footer{
+    background-color:gray;
+    padding:10px;
+    
+}
+.contact{
+   
+    display:flex;
+    justify-content:space-around;
+}
+.foter{
+   
+}
+.cnFter{
+}
+.cnFter ul li{
+   list-style:none;
+    color:black;
+}
+
+.cnFter ul li a{
+    text-decoration:none;
+    color:black;
+}
+.fn li{
+    list-style:none;
+}
+.ab{
+    /* background-color: rgb(205, 12, 12); */
+    margin-left:500px;
+}
 
 
 
